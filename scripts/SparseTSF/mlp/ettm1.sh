@@ -2,7 +2,7 @@ if [ ! -d "./logs" ]; then
     mkdir ./logs
 fi
 
-model_name=SparseTSF
+model_name=${1:-"SparseTSF"}
 
 root_path_name=./dataset/
 data_path_name=ETTm1.csv
